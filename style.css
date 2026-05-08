@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  font-family: "Cossette Texte", sans-serif;
+  font-weight: 700;
+  text-decoration: underline;
+  padding: 5% 0;
+  background-color: #15158a;
+  width: 100%;
+}
+
+/* MAIN */
+main {
+  background-color: black;
+  padding: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+footer {
+  padding: 5% 0;
+  font-family: "Intel One Mono", monospace;
+  font-weight: 500;
+  background-color: #15158a;
+  width: 100%;
+}
+
+/* CALCULATOR */
+#calculator {
+  display: flex;
+  flex-direction: column;
+  border: 1em solid darkgray;
+  background-color: white;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 300px;
+  padding: 15px;
+}
+
+/* DISPLAY */
+#answerDisplay {
+  margin: 10px auto;
+  border: 2px solid gray;
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  width: 90%;
+  text-align: right;
+}
+
+/* NUMBER BUTTONS */
+#numberButton {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+/* SIGN BUTTONS */
+#signButton {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+/* BUTTON LAYOUT WRAPPER */
+#calculatorButtonLayout {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* NUMBER BUTTON DESIGN */
+.numberButtonDesign{
+  padding: 5px 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.numberButtonDesign:hover{
+background-color: black;
+color: white;
+}
+
+.numberButtonDesign:active{
+  transform: scale(0.5)
+}
+
+/* SIGN BUTTON DESIGN */
+.signButtonDesign{
+  padding: 5px 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.signButtonDesign:hover{
+background-color: black;
+color: white;
+}
+
+.signButtonDesign:active{
+  transform: scale(0.5)
+}
+
+/* BACKSPACE BUTTON DESIGN */
+#backspace{
+  padding: 5px 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+#backspace:hover{
+background-color: black;
+color: white;
+}
+
+#backspace:active{
+  transform: scale(0.5)
+}
+
+/* CLEAR BUTTON DESIGN */
+#clear{
+  padding: 5px 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+#clear:hover{
+background-color: black;
+color: white;
+}
+
+#clear:active{
+  transform: scale(0.5)
+}
+
+/* RESULT BUTTON DESIGN */
+#result{
+  padding: 5px 8px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+#result:hover{
+background-color: black;
+color: white;
+}
+
+#result:active{
+  transform: scale(0.5)
+}
