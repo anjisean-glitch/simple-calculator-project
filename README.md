@@ -14,7 +14,7 @@ Features:
 - Operator validation
 
 Live Demo:
-https://your-link
+ https://anjisean-glitch.github.io/simple-calculator-project/
 
 Image:
 <img width="960" height="421" alt="Screenshot of js calculator (78)" src="https://github.com/user-attachments/assets/f0de19a5-08ba-4b20-81c9-14bded2d80df" />
